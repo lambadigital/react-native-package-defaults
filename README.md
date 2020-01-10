@@ -15,3 +15,6 @@ import PackageDefaults from 'react-native-package-defaults';
 // TODO: What to do with the module?
 PackageDefaults;
 ```
+
+
+https://gist.github.com/nhnam/ca76872d2fc92ed3ce5034c6a32878eb
