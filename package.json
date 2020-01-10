@@ -1,7 +1,7 @@
 {
   "name": "react-native-package-defaults",
   "title": "React Native Package Defaults",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "TODO",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,8 @@
   "dependencies": {
     "react-navigation": "4.0.10",
     "react-navigation-stack": "2.0.13",
+    "react-native-reanimated": "1.4.0",
+    "react-native-screens": "2.0.0-alpha.23",
     "react-native-safe-area-context": "0.6.2",
     "react-native-gesture-handler": "1.5.3",
     "@react-native-community/masked-view": "0.1.5"
