@@ -5,7 +5,8 @@
   "description": "TODO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npx jetify"
   },
   "repository": {
     "type": "git",
@@ -23,19 +24,20 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "dependencies": {
-    "react-navigation": "4.0.10",
-    "react-navigation-stack": "2.0.13",
-    "react-native-reanimated": "1.4.0",
-    "react-native-screens": "2.0.0-alpha.23",
-    "react-native-safe-area-context": "0.6.2",
+    "@react-native-community/masked-view": "0.1.5",
     "react-native-gesture-handler": "1.5.3",
-    "@react-native-community/masked-view": "0.1.5"
+    "react-native-reanimated": "1.4.0",
+    "react-native-safe-area-context": "0.6.2",
+    "react-native-screens": "2.0.0-alpha.23",
+    "react-navigation": "4.0.10",
+    "react-navigation-stack": "2.0.13"
   },
   "peerDependencies": {
     "react": "^16.9.0",
     "react-native": ">=0.61.5 <1.0.x"
   },
   "devDependencies": {
+    "jetifier": "^1.6.5",
     "react": "^16.9.0",
     "react-native": "^0.61.5"
   }
